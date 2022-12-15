@@ -1,0 +1,38 @@
+.header {
+  background-color: #ffffff;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav {
+  font-family: "Graphik", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 15px;
+  display: flex;
+  margin: auto 0;
+  margin-left: 100px;
+}
+
+.logo {
+  justify-content: center;
+  margin: auto;
+}
+
+.login {
+  display: flex;
+}
+
+.login-menu {
+  display: flex;
+  margin: auto 0;
+  margin-right: 100px;
+}
+
+.login-menu-images {
+  display: flex;
+}
+
+a {
+}
