@@ -1,25 +1,86 @@
 @font-face {
-  font-family: "Graphik";
-  src: local("Graphik Medium"), local("Graphik-Medium"), url("Graphik-Medium.woff2") format("woff2"), url("Graphik-Medium.woff") format("woff"), url("Graphik-Medium.ttf") format("truetype");
-  font-weight: 500;
-  font-style: normal;
+  font-family: "DIN Pro";
+  src: local("DIN Pro Condensed Bold"), local("DIN-Pro-Condensed-Bold"), url("../font/DINPro-CondensedBold.woff2") format("woff2"), url("../font/DINPro-CondensedBold.woff") format("woff"), url("../font/DINPro-CondensedBold.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: "Graphik";
-  src: local("Graphik Regular"), local("Graphik-Regular"), url("Graphik-Regular.woff2") format("woff2"), url("Graphik-Regular.woff") format("woff"), url("Graphik-Regular.ttf") format("truetype");
+  font-family: "Graphik Regular";
+  src: local("Graphik Regular"), local("Graphik-Regular"), url("../font/Graphik-Regular.woff2") format("woff2"), url("../font/Graphik-Regular.woff") format("woff"), url("../font/Graphik-Regular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
 }
 
-@font-face {
-  font-family: "DIN Pro";
-  src: local("DIN Pro Condensed Bold"), local("DIN-Pro-Condensed-Bold"), url("DINPro-CondensedBold.woff2") format("woff2"), url("DINPro-CondensedBold.woff") format("woff"), url("DINPro-CondensedBold.ttf") format("truetype");
-  font-weight: 700;
-  font-style: normal;
+p {
+  margin: 0;
 }
 
 body {
   max-width: 1920px;
   background: rgb(231, 231, 231);
+  margin: auto;
+}
+
+.container {
+  display: flex;
+  height: 600px;
+  background: #ff5050;
+  background-image: url(/img/snowflakes.png);
+  background-position: 100% 0%;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.container-text-in-box {
+  margin-left: 10%;
+  padding: 100px 0px;
+  width: 23em;
+  color: rgb(255, 255, 255);
+}
+
+.container-text-in-box-tit {
+  font-family: "DIN Pro";
+  src: local("DIN Pro Condensed Bold"), local("DIN-Pro-Condensed-Bold"), url("../font/DINPro-CondensedBold.woff2") format("woff2"), url("../font/DINPro-CondensedBold.woff") format("woff"), url("../font/DINPro-CondensedBold.ttf") format("truetype");
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 91px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.container-text-in-box-paragraph {
+  font-family: "Graphik Regular";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 50px;
+}
+
+.container-text-in-box-button > button {
+  font-family: "DIN Pro";
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  text-transform: uppercase;
+  text-align: center;
+
+  width: 160px;
+  height: 60px;
+  background-color: rgb(255, 255, 255);
+  color: #000;
+  border: 0;
+}
+
+.container-imgs > img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.tshirt-1 {
+  right: 900px;
 }

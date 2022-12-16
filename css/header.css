@@ -1,38 +1,58 @@
+@font-face {
+  font-family: "Graphik";
+  src: local("Graphik Medium"), local("Graphik-Medium"), url("../font/Graphik-Medium.woff2") format("woff2"), url("../font/Graphik-Medium.woff") format("woff"), url("../font/Graphik-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
 .header {
   background-color: #ffffff;
   height: 100px;
   display: flex;
-  justify-content: space-between;
 }
 
-.nav {
-  font-family: Graphik;
+.header-nav {
+  font-family: "Graphik";
   font-size: 14px;
   font-weight: 500;
   line-height: 15px;
   display: flex;
   margin: auto 0;
   margin-left: 100px;
+  column-gap: 50px;
 }
 
-.logo {
-  justify-content: center;
+.header-login-menu-images-magnifer,
+.header-login-menu-images-heart,
+.header-login-menu-images-package {
+  margin-left: 50px;
+}
+
+.header-logo {
+  display: flex;
   margin: auto;
 }
 
-.login {
+.header-login-menu-login {
   display: flex;
 }
 
-.login-menu {
+.header-login-menu {
   display: flex;
-  margin: auto 0;
+  font-family: "Graphik";
+  font-weight: 500;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: auto;
   margin-right: 100px;
 }
 
-.login-menu-images {
+.header-login-menu-images {
   display: flex;
 }
 
 a {
+  text-decoration: none;
+  color: black;
 }
