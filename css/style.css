@@ -31,7 +31,7 @@ body {
 }
 
 .container-text-in-box {
-  margin-left: 10%;
+  margin-left: 13%;
   padding: 100px 0px;
   width: 23em;
   color: rgb(255, 255, 255);
@@ -75,12 +75,19 @@ body {
   border: 0;
 }
 
-.container-imgs > img {
-  position: absolute;
+.container-imgs {
+  position: relative;
   right: 0;
   bottom: 0;
 }
 
 .tshirt-1 {
-  right: 900px;
+  position: absolute;
+  left: 298px;
+}
+
+.tshirt-2 {
+  position: absolute;
+  left: 630px;
+  bottom: -5px;
 }

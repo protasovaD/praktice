@@ -20,12 +20,7 @@
   margin: auto 0;
   margin-left: 100px;
   column-gap: 50px;
-}
-
-.header-login-menu-images-magnifer,
-.header-login-menu-images-heart,
-.header-login-menu-images-package {
-  margin-left: 50px;
+  align-items: center;
 }
 
 .header-logo {
@@ -33,12 +28,9 @@
   margin: auto;
 }
 
-.header-login-menu-login {
-  display: flex;
-}
-
 .header-login-menu {
   display: flex;
+  align-items: center;
   font-family: "Graphik";
   font-weight: 500;
   line-height: 15px;
@@ -46,10 +38,12 @@
   text-align: left;
   margin: auto;
   margin-right: 100px;
+  column-gap: 51px;
 }
 
 .header-login-menu-images {
   display: flex;
+  align-items: center;
 }
 
 a {

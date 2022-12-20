@@ -1,3 +1,127 @@
 footer {
   background-color: #262425;
 }
+
+.footer-white {
+  background-color: white;
+  height: 333px;
+}
+
+.footer-white-title {
+  padding-top: 100px;
+  font-family: DIN Pro;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0.05em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.footer-white-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 75px;
+  margin-top: 37px;
+}
+
+.footer-black {
+  background-color: #262425;
+  height: 422px;
+  color: white;
+  position: relative;
+}
+
+.footer-black-columns {
+  display: flex;
+  justify-content: center;
+  column-gap: 150px;
+}
+
+.footer-black-column {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  row-gap: 34px;
+
+  font-family: Graphik;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+  text-transform: uppercase;
+
+  margin-bottom: 80px;
+}
+
+.footer-black-column-logos {
+  display: flex;
+  flex-direction: row;
+  column-gap: 25px;
+}
+
+.footer-black-bottom-arr {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 20px;
+
+  font-family: Graphik;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+  opacity: 40%;
+  color: #ffffff;
+}
+
+.footer-black-column-title {
+  font-family: Graphik;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  text-transform: capitalize;
+}
+
+.footer-black-column-permission-search {
+  background-color: #262425;
+  border: none;
+  height: 40px;
+  width: 280px;
+  color: white;
+
+  font-family: Graphik;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  border-bottom: 2px solid #ffffff;
+}
+
+.footer-black-column-permission {
+  position: relative;
+}
+
+.footer-black-column-permission-arrow {
+  position: absolute;
+  right: 20px;
+  bottom: 15px;
+}
+
+input[type="text"]:focus {
+  border: none;
+  background-color: rgb(13, 13, 13);
+  caret-color: white;
+  border-bottom: 2px solid #ffffff;
+}
+
+input {
+  outline: none;
+}
