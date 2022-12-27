@@ -24,7 +24,7 @@ body {
   display: flex;
   height: 600px;
   background: #ff5050;
-  background-image: url(/img/snowflakes.png);
+  background-image: url(./img/snowflakes.png);
   background-position: 100% 0%;
   background-repeat: no-repeat;
   position: relative;
@@ -39,7 +39,7 @@ body {
 
 .container-text-in-box-tit {
   font-family: "DIN Pro";
-  src: local("DIN Pro Condensed Bold"), local("DIN-Pro-Condensed-Bold"), url("../font/DINPro-CondensedBold.woff2") format("woff2"), url("../font/DINPro-CondensedBold.woff") format("woff"), url("../font/DINPro-CondensedBold.ttf") format("truetype");
+  src: local("DIN Pro Condensed Bold"), local("DIN-Pro-Condensed-Bold"), url("./../font/DINPro-CondensedBold.woff2") format("woff2"), url("../font/DINPro-CondensedBold.woff") format("woff"), url("../font/DINPro-CondensedBold.ttf") format("truetype");
   font-size: 100px;
   font-weight: 700;
   line-height: 91px;
