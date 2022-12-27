@@ -24,7 +24,7 @@ body {
   display: flex;
   height: 600px;
   background: #ff5050;
-  background-image: url(./img/snowflakes.png);
+  background-image: url(../img/snowflakes.png);
   background-position: 100% 0%;
   background-repeat: no-repeat;
   position: relative;
